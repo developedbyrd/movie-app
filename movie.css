@@ -108,3 +108,13 @@ main {
 .movie:hover .overview {
     transform: translateY(0);
 }
+
+@media screen and (max-width: 770px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        transform: translateX(-17.5%);
+    }
+}
